@@ -1,0 +1,7 @@
+ls
+
+Shows Welcome.txt
+
+nano Welcome.txt
+
+act-with-honor-and-honor-will-aid-you

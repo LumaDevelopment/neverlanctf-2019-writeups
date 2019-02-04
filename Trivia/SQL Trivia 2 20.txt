@@ -1,0 +1,11 @@
+Search the Question:
+
+In MSSQL Injection Whats the query to see what version it is?
+
+First result:
+
+http://pentestmonkey.net/cheat-sheet/sql-injection/mssql-sql-injection-cheat-sheet
+
+First thing on the table and flag:
+
+SELECT @@version

@@ -1,0 +1,15 @@
+https://challenges.neverlanctf.com:1145
+
+Right Click > Inspect
+
+Sources
+
+/static/js/main.237378d2.js
+
+Pretty Print
+
+Ctrl+F "{
+
+Line 14646
+
+flag{s3cur3_y0ur_s3ss10ns}

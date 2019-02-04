@@ -1,0 +1,13 @@
+nano random
+
+Yep. Definetly a binary file.
+
+strings random
+
+Progress.
+
+strings random | grep 'level'
+
+level4:only*hack^things%you$own
+
+only*hack^things%you$own

@@ -1,0 +1,21 @@
+nano nextlevel
+
+Ok. Not readable
+
+The "file" command can actually figure this out for us
+
+nextlevel: gzip compressed data, was "principles.txt", last modified: Fri Mar 30 08:05:12 2018, max compression, from Unix
+
+gzip -d nextlevel
+
+Nope...
+
+cp nextlevel nextlevel.gz
+
+gzip -d nextlevel.gz
+
+Aha.
+
+level5:on-my-honor-i-will-do-my-best
+
+on-my-honor-i-will-do-my-best

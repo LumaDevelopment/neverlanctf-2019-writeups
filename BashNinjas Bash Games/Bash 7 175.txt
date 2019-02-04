@@ -1,0 +1,17 @@
+ls
+
+level7.txt
+
+nano level7.txt
+
+Alright. If you've done some Crypto, this is Base64
+
+scp -P 3333 level6@157.230.73.80:level7.txt level7.txt
+
+Got it. Open it up and C/P
+
+base64decode.org
+
+level7:white-hats-have-values-and-rules
+
+white-hats-have-values-and-rules

@@ -1,0 +1,11 @@
+Download executable https://ctf.neverlanctf.com/files/bacadcfa0e5cb4ed5663ee2817c09ada/Employee_Payroll.exe
+
+Download IDA https://www.hex-rays.com/products/ida/support/download.shtml
+
+Open as binary
+
+Scroll down until you see flag{
+
+Transcribe flag:
+
+flag{ST0RING_STAT1C_PA55WORDS_1N_FIL3S_1S_N0T_S3CUR3}

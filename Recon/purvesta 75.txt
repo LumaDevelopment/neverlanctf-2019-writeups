@@ -1,0 +1,13 @@
+GitHub Pages default subdomain is github.io
+
+https://purvesta.github.io/
+
+Link to GitHub on site: https://www.github.com/purvesta
+
+Find website repository: https://github.com/purvesta/purvesta.github.io/
+
+Find lol file
+
+https://github.com/purvesta/purvesta.github.io/blob/master/lol
+
+flag{Th1s_g1thub_l00ks_a_l1l_sparc3}

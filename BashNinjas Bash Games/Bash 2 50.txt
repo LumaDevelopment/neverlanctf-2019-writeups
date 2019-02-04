@@ -1,0 +1,21 @@
+Hmm.
+
+ls
+
+Nothing. Let's search everything
+
+Well last file was txt, lets search for txts
+(Looking back at it now, I could've just used 'find . -type f -name "*"'
+
+cd ..
+cd ..
+
+find . -type f -name "*.txt"
+
+First result without Permission denied: ./home/level1/.honor-code.txt
+
+cd home/level1/
+
+nano .honor-code.txt
+
+the-only-path-to-honor-is-to-stick-to-your-chosen-code

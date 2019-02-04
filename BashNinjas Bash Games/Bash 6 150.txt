@@ -1,0 +1,11 @@
+nano values.txt
+
+Ok well. can't look at image files with a terminal. Time to use the scp command
+
+scp -P 3333 level5@157.230.73.80:Syl.jpg Syl.jpg
+
+Got it.
+
+level6:have-you-memorized-the-code-yet
+
+have-you-memorized-the-code-yet

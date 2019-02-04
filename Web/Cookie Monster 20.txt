@@ -1,0 +1,9 @@
+https://challenges.neverlanctf.com:1110/
+
+Use browser eextension to edit cookie Red_Guy's_name
+
+Value is Elmo
+
+Save & Reload
+
+flag{YummyC00k13s}

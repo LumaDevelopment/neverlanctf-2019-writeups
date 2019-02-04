@@ -1,0 +1,13 @@
+https://challenges.neverlanctf.com:1125
+
+Login: https://challenges.neverlanctf.com:1125/login.php
+
+For username put Johnny'# (this kills the password check) and login
+
+Now you have admin perms!
+
+Main page again: https://challenges.neverlanctf.com:1125/
+
+The Key, Oh my, The Key post contains the flag:
+
+flag{3sc4pe_Y0ur_1npu7s}

@@ -1,0 +1,21 @@
+https://challenges.neverlanctf.com:1120
+
+Right Click > Inspect
+
+body, script
+
+function getThat(strg){
+    if(strg == 'Y'){
+	
+
+Hmmmmm
+
+Click Console
+
+getThat('Y')
+
+Text changes to:
+
+Password: flag{console_controls_js}
+
+flag{console_controls_js}

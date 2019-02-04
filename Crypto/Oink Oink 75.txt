@@ -1,0 +1,5 @@
+https://ctf.neverlanctf.com/files/a189e5808be9f4b15dba408c20466a35/oink_oink_challenge.png
+
+Translate from PigPen
+
+FLAG{D0WN_AND_D1R7Y}

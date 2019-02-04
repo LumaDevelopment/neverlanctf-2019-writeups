@@ -1,0 +1,15 @@
+ls
+
+canyoufindme.txt
+
+Every flag has had the word honor in it so far...
+
+grep 'honor' canyoufindme.txt
+
+Nope. Let's exclude spaces.
+
+grep -v ' ' canyoufindme.txt canyoufindme.txt | grep 'honor' 
+
+level3:child-of-honor
+
+child-of-honor
