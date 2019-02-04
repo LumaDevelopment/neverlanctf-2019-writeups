@@ -1,15 +1,22 @@
-ls
+ls time
 
+Command: ls
+
+Found
 canyoufindme.txt
 
-Every flag has had the word honor in it so far...
+Every flag has had the word honor in it so far... Let's use grep. Grep is a command that allows you to find text in files (among many other uses, but for the purpouse of this challenge, we're using it for this purpouse now)
 
-grep 'honor' canyoufindme.txt
+Command: grep 'honor' canyoufindme.txt
 
-Nope. Let's exclude spaces.
+Nope. Let's exclude spaces. Using the command with the -v (essentially exclude) flag and appending looking for 'honor' narrows it down.
 
-grep -v ' ' canyoufindme.txt canyoufindme.txt | grep 'honor' 
+Command: grep -v ' ' canyoufindme.txt canyoufindme.txt | grep 'honor' 
 
+Aha. We found:
 level3:child-of-honor
 
+Seems that every flag is going to be in the formamt of "level*:<flag>" now. Let's take note of that.
+
+Flagaroni:
 child-of-honor

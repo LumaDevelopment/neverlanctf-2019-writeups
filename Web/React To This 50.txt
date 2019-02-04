@@ -1,15 +1,15 @@
+Challenge page:
 https://challenges.neverlanctf.com:1145
 
+Do Web Action:
 Right Click > Inspect
+Click on the Sources Tab
 
-Sources
-
+We find this URL through looking through the sources.
 /static/js/main.237378d2.js
 
-Pretty Print
+Now we need to Pretty Print it and look for the flag opening symbol:
+Key Combo: Ctrl+F "{"
 
-Ctrl+F "{
-
-Line 14646
-
+On Pretty Print Line 14646 (results may vary), we find the flag in a line:
 flag{s3cur3_y0ur_s3ss10ns}

@@ -1,13 +1,19 @@
-nano random
+Command: ls
 
-Yep. Definetly a binary file.
+We fouond a file called random (that's apparently a binary file).
 
-strings random
+Command: nano random
 
-Progress.
+Yep. Definetly not plaintext. Let's use the strings command. Strings is kind of hard to explain in its entirety, but in essence its a useful tool for getting plaintext data from files.
 
-strings random | grep 'level'
+Command: strings random
 
+Progress. We're getting plaintext without "odd" characters at this point. Let's append grep to that to find the "level" string in this output to find our flag.
+
+Command: strings random | grep 'level'
+
+Eureka! Seems our "formula" works. Here we are.
 level4:only*hack^things%you$own
 
+Flag:
 only*hack^things%you$own

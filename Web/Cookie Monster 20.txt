@@ -1,9 +1,8 @@
+Challenge:
 https://challenges.neverlanctf.com:1110/
 
-Use browser eextension to edit cookie Red_Guy's_name
+We need to use browser extension to edit cookie "Red_Guy's_name"
+Now we need to change this to Elmo (seeing as Red Guy + Cookie Monster could only lead to Elmo)
 
-Value is Elmo
-
-Save & Reload
-
+When we Save & Reload, we get the flag:
 flag{YummyC00k13s}

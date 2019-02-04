@@ -1,21 +1,22 @@
+The challenge is at:
 https://challenges.neverlanctf.com:1120
 
+Do Web Action:
 Right Click > Inspect
 
-body, script
+Expand body then script
 
-function getThat(strg){
-    if(strg == 'Y'){
-	
+Now we see this code:
+//function getThat(strg){
+//    if(strg == 'Y'){
 
 Hmmmmm
 
-Click Console
-
-getThat('Y')
+Now we need to click the Console tab & execute this command:
+Command: getThat('Y')
 
 Text changes to:
-
 Password: flag{console_controls_js}
 
+So we have the flag:
 flag{console_controls_js}

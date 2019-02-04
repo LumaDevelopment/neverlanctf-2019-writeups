@@ -1,11 +1,21 @@
-nano values.txt
+Command: ls
 
-Ok well. can't look at image files with a terminal. Time to use the scp command
+We found values.txt and Syl.jpg
 
-scp -P 3333 level5@157.230.73.80:Syl.jpg Syl.jpg
+Ok well. can't look at image files with a terminal. Let's check the TXT
+
+Command: nano values.txt
+
+Well this recommends us use an SSH file transfer command. This requires I break down the scp command.
+The basic command is "scp [username@host:file] [where the file will be saved]"
+We need to use the Port flag, -P <port> because our target doesn't use the regular SSH port.
+
+Command: scp -P 3333 level5@157.230.73.80:Syl.jpg Syl.jpg
 
 Got it.
 
+We opens this file and it has this string in it:
 level6:have-you-memorized-the-code-yet
 
+Got the flag:
 have-you-memorized-the-code-yet

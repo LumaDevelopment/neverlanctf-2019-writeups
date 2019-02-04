@@ -1,13 +1,14 @@
-GitHub Pages default subdomain is github.io
-
+GitHub Pages default subdomain is github.io, so lets try this URL:
 https://purvesta.github.io/
 
-Link to GitHub on site: https://www.github.com/purvesta
+There's a link to a GitHub profile on the site: 
+https://www.github.com/purvesta
 
-Find website repository: https://github.com/purvesta/purvesta.github.io/
+We found the website repository: 
+https://github.com/purvesta/purvesta.github.io/
 
-Find lol file
-
+We found the lol file here:
 https://github.com/purvesta/purvesta.github.io/blob/master/lol
 
+It contains the flag:
 flag{Th1s_g1thub_l00ks_a_l1l_sparc3}

@@ -1,12 +1,14 @@
+URL:
 https://challenges.neverlanctf.com:1160
 
 There is a cipher text:
 jllnunajcxa
 
-Went to https://cryptii.com/pipes/caesar-cipher
+I decoded at:
+https://cryptii.com/pipes/caesar-cipher
 
-Ceaser Shift +9 = accelerator
+This text is Ceaser Shift +9 = accelerator
 
-Put in box and press submit
-
+If you put this string in the box and press submit
+You get the flag:
 flag{H3llo_c4es3r}

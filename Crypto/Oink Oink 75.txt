@@ -1,5 +1,6 @@
 https://ctf.neverlanctf.com/files/a189e5808be9f4b15dba408c20466a35/oink_oink_challenge.png
-
+Now, this is PigPen. So,
 Translate from PigPen
 
+And you get the flag:
 FLAG{D0WN_AND_D1R7Y}

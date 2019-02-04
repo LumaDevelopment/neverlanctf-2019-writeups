@@ -1,21 +1,26 @@
+Do Web Action:
 Right Click > Inspect
 
-Network Tab
+Click the Network Tab
 
-Type in random username and password.
-
+Type in random username and password. We get the URLs from inspecting the network transaction.
 "/webhooks/get_username.php" & "/webhooks/get_password.php?user=test"
 
+Okay well lets check the code.
 https://challenges.neverlanctf.com:1135/webhooks/get_username.php
 
+We get:
 {"usernames":[ "AdamsFamily","Mr. Clean","Dr. Whom","JimmyOneShoe" ] }
 
-Bruteforce Usernames
+Time to bruteforce the usernames on the original page.
 
+Finally we stumble upon some Base 64 when using this URL:
 https://challenges.neverlanctf.com:1135/webhooks/get_password.php?user=Dr.%20Whom
 
-ZmxhZ3tEMG4ndF83cnVzN19KU30=
+Base64 ZmxhZ3tEMG4ndF83cnVzN19KU30=
 
-Decode with https://www.base64decode.org/
+We decoded with:
+https://www.base64decode.org/
 
+This decodes into the flag:
 flag{D0n't_7rus7_JS}

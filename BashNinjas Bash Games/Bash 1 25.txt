@@ -1,7 +1,13 @@
-ls
+Time to use ls. LS lists the visible files in the folder.
 
-Shows Welcome.txt
+Command: ls
 
-nano Welcome.txt
+This shows Welcome.txt
+
+Time to use nano. Nano is essentially a basic text editor for Linux.
+
+Command: nano Welcome.txt
+
+This shows a lot of text (and some really cool ASCII art) but we're interested in the flag:
 
 act-with-honor-and-honor-will-aid-you

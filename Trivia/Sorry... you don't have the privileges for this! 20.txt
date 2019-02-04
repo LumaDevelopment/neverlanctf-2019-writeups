@@ -1,1 +1,6 @@
+It means "super user do"
+This doesn't work raw so you have to convert it to the flag format.
+Even though the rest of the Trivia sections don't use the flag format **AHEM why do you do this to me NeverLAN AHEM**
+
+We get the correct flag:
 flag{super_user_do}

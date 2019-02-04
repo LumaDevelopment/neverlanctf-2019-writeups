@@ -1,17 +1,19 @@
-ls
+Command: ls
 
-level7.txt
+Well we found level7.txt
 
-nano level7.txt
+Command: nano level7.txt
 
-Alright. If you've done some Crypto, this is Base64
+Alright. If you've done some Crypto, this is Base64. I'd rather decode this on a desktop/website, so lets download it.
 
-scp -P 3333 level6@157.230.73.80:level7.txt level7.txt
+Command: scp -P 3333 level6@157.230.73.80:level7.txt level7.txt
 
 Got it. Open it up and C/P
 
-base64decode.org
+Website: base64decode.org
 
+When we decode this we get some text and:
 level7:white-hats-have-values-and-rules
 
+Flag:
 white-hats-have-values-and-rules

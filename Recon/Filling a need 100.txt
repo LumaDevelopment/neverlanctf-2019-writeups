@@ -1,7 +1,6 @@
-After extensive searching of companies founded in September 2001 and September 24th 2001, found Open Web Application Security Project (OWASP)
+After extensive searching of companies founded in September 2001 and September 24th 2001, found Open Web Application Security Project (OWASP).
+This popular tool for cybersecurity people. Birthday is September 24th, 2001.
+From the sense of NeverLAN CTF, I assume this would be filling a need.
 
-Popular tool for cybersecurity people. Birthday is September 24th, 2001
-
-Adapt to flag format:
-
+Putting in the name doesn't return correct, so we need to adapt to flag format:
 flag{Open_Web_Application_Security_Project}

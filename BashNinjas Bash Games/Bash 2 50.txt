@@ -1,21 +1,29 @@
 Hmm.
 
-ls
+Time to use ls from Bash 1
+
+Command: ls
 
 Nothing. Let's search everything
 
 Well last file was txt, lets search for txts
-(Looking back at it now, I could've just used 'find . -type f -name "*"'
+(Looking back at it now, I could've just used 'find . -type f -name "*"')
+But first, we need to go up the directory to search everything. That means we need to use the cd command, which moves you directory in the machine.
+Fun Fact: using "cd .." means you go up ONE directory
 
-cd ..
-cd ..
+Command: cd ..
+Command: cd ..
 
-find . -type f -name "*.txt"
+Now we need to use the find command. We define that we're looking for files with "-type f", and the name with '-name "*.txt"'
+
+Command: find . -type f -name "*.txt"
 
 First result without Permission denied: ./home/level1/.honor-code.txt
 
-cd home/level1/
+Command: cd home/level1/
 
-nano .honor-code.txt
+Time to use nano again!
+Command: nano .honor-code.txt
 
+Found the flag!
 the-only-path-to-honor-is-to-stick-to-your-chosen-code

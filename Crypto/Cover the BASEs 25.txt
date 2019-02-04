@@ -1,7 +1,10 @@
-ZmxhZ3tEMWRfeTB1X2QwX3RoM19QcjNfQ1RGfQ==
+You get this cipher:
+Cipher: ZmxhZ3tEMWRfeTB1X2QwX3RoM19QcjNfQ1RGfQ==
 
-Decode with: https://www.base64decode.org/
+Well, this is Base64. After working with Crypto for a while, you start recognizing it. The two equal signs at the end put the nail in the coffin.
+I decoded with: https://www.base64decode.org/
 
+We get the flag:
 flag{D1d_y0u_d0_th3_Pr3_CTF}
 
-//Yes... I did
+Yes... I did
